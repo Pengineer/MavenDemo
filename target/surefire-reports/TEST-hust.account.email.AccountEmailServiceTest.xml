@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="hust.account.email.AccountEmailServiceTest" time="0.393" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\D\software\x64\Java\jdk1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\D\projects\workspace_old\MvnStudy"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\D\projects\workspace_old\MvnStudy"/>
+    <property name="java.endorsed.dirs" value="C:\D\software\x64\Java\jdk1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\PENGLI~1\AppData\Local\Temp\surefirebooter2996961353816022947.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\PENGLI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\D\software\x64\Java\jdk1.8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\D\software\x64\Java\jdk1.8\bin;C:\D\software\x86\Maven\apache-maven-3.3.3\bin;C:\D\software\x64\UltraEdit\install files;C:\D\software\x86\ant\apache-ant-1.9.7\bin;C:\D\software\packages\hadoop-2.7.2\bin;C:\D\software\x86\Scala\bin;C:\D\software\x64\Python\Python2.7.12;C:\D\software\x64\Python\Python2.7.12\Scripts;C:\D\software\x64\SlikSvn\bin;C:\D\software\x64\Git\Git\cmd;C:\D\software\x64\Git\TortoiseGit\bin;C:\Users\pengliang\AppData\Local\atom\bin;."/>
+    <property name="surefire.test.class.path" value="C:\D\projects\workspace_old\MvnStudy\target\test-classes;C:\D\projects\workspace_old\MvnStudy\target\classes;C:\Users\pengliang\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-core\3.2.9.RELEASE\spring-core-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-beans\3.2.9.RELEASE\spring-beans-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-context\3.2.9.RELEASE\spring-context-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-aop\3.2.9.RELEASE\spring-aop-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-expression\3.2.9.RELEASE\spring-expression-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-context-support\3.2.9.RELEASE\spring-context-support-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\javax\mail\mail\1.4.1\mail-1.4.1.jar;C:\Users\pengliang\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\pengliang\.m2\repository\com\icegreen\greenmail\1.5.2\greenmail-1.5.2.jar;C:\Users\pengliang\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\pengliang\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\pengliang"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="liangjian"/>
+    <property name="java.class.path" value="C:\D\projects\workspace_old\MvnStudy\target\test-classes;C:\D\projects\workspace_old\MvnStudy\target\classes;C:\Users\pengliang\.m2\repository\junit\junit\4.7\junit-4.7.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-core\3.2.9.RELEASE\spring-core-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-beans\3.2.9.RELEASE\spring-beans-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-context\3.2.9.RELEASE\spring-context-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-aop\3.2.9.RELEASE\spring-aop-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-expression\3.2.9.RELEASE\spring-expression-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\org\springframework\spring-context-support\3.2.9.RELEASE\spring-context-support-3.2.9.RELEASE.jar;C:\Users\pengliang\.m2\repository\javax\mail\mail\1.4.1\mail-1.4.1.jar;C:\Users\pengliang\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\pengliang\.m2\repository\com\icegreen\greenmail\1.5.2\greenmail-1.5.2.jar;C:\Users\pengliang\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\pengliang\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\D\software\x64\Java\jdk1.8\jre"/>
+    <property name="sun.java.command" value="C:\Users\PENGLI~1\AppData\Local\Temp\surefirebooter2996961353816022947.jar C:\Users\PENGLI~1\AppData\Local\Temp\surefire4239609719879870827tmp C:\Users\PENGLI~1\AppData\Local\Temp\surefire3494168991514479761tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\D\software\x64\Java\jdk1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\D\software\x64\Java\jdk1.8\jre\lib\resources.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\rt.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\sunrsasign.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\jsse.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\jce.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\charsets.jar;C:\D\software\x64\Java\jdk1.8\jre\lib\jfr.jar;C:\D\software\x64\Java\jdk1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\pengliang\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="hust.account.email.AccountEmailServiceTest" name="testSendMail" time="0.342"/>
+</testsuite>
